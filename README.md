@@ -9,35 +9,6 @@ This project uses the power of computer vision to track and count various exerci
 - Progress bar indicating the completion of each exercise
 - Percentage display of exercise progress
 
-## Installation
-
-To set up the environment and install the required libraries, follow the steps below:
-
-1. Clone the repository
-
-2. Create a virtual environment (Optional but recommended):
-
-```bash
-python3 -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-```
-
-3. Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-To run the application, execute the following command:
-
-```bash
-python name of the .py file of the excercise you want to check
-```
-
-The application will access your webcam and start detecting and counting exercises in real-time. The exercise counter will be displayed at the bottom-left corner of the screen, and the progress bar and percentage display will appear for each exercise. The specific exercise being counted can be changed in the code by selecting the corresponding exercise function in the main function.
-
 ## Method
 
 This project is a real-time exercise counter using computer vision. It employs the mediapipe library for pose estimation and OpenCV for image processing.
